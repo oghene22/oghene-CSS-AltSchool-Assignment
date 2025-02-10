@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>All CSS Assignments</title>
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+     <style>
+         body {
+             font-family: 'Josefin Sans', sans-serif;
+             background-color: #f4f4f9;
+             margin: 0;
+             padding: 0;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             min-height: 100vh;
+         }
+ 
+         .container {
+             max-width: 800px;
+             background: #fff;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+         }
+ 
+         .title {
+             text-align: center;
+         }
+ 
+         h1 {
+             font-size: 24px;
+             color: #333;
+         }
+ 
+         .description {
+             font-size: 14px;
+             color: #777;
+         }
+ 
+         .columns__wrapper {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 20px;
+             margin-top: 20px;
+         }
+ 
+         .column {
+             flex: 1;
+             min-width: 300px;
+         }
+ 
+         ol {
+             list-style: none;
+             padding: 0;
+         }
+ 
+         li {
+             background: #e3e7f1;
+             padding: 15px;
+             margin-bottom: 10px;
+             border-radius: 8px;
+             transition: all 0.3s ease-in-out;
+         }
+ 
+         li:hover {
+             background: #d1d8e6;
+         }
+ 
+         .click__open {
+             text-decoration: none;
+             font-weight: 600;
+             color: #2c3e50;
+             display: inline-block;
+         }
+ 
+         .click__open:hover {
+             color: #1a252f;
+         }
+ 
+         .open__link {
+             text-decoration: none;
+             display: inline-block;
+             margin-left: 10px;
+         }
+ 
+         p {
+             margin: 5px 0 0;
+             font-size: 14px;
+             color: #555;
+         }
+     </style>
+ </head>
+ 
+ <body>
+     <section class="container">
+         <div class="title">
+             <h1>OgheneO'Tega J. Abraham</h1>
+             <p>ALT/SOE/024/2881</p>
+             <p class="description">Click on "Assignment" or the small arrow icon beside each assignment to open it.</p>
+         </div>
+ 
+         <div class="columns__wrapper">
+             <div class="column">
+                 <ol>
+                     <li>
+                         <a class="click__open" href="./assignment_1/index.html" target="_blank">Assignment 1</a>
+                         <p>An "Otter Essay" webpage demonstrating CSS positioning.</p>
+                     </li>
+                     <li>
+                         <a class="click__open" href="./assignment_2/index.html" target="_blank">Assignment 2</a>
+                         <p>Huckleberry Agency page, showcasing CSS box model and responsiveness.</p>
+                     </li>
+                     <li>
+                         <a class="click__open" href="./assignment_3/index.html" target="_blank">Assignment 3</a>
+                         <p>"Novus Watch Series IV" Product card.</p>
+                     </li>
+                 </ol>
+             </div>
+             <div class="column">
+                 <ol start="4">
+                     <li>
+                         <a class="click__open" href="./assignment_4/index.html" target="_blank">Assignment 4</a>
+                         <p>Responsive Wellness program registration form.</p>
+                     </li>
+                     <li>
+                         <a class="click__open" href="./assignment_5/index.html" target="_blank">Assignment 5</a>
+                         <p>WP Pusher checkout page demonstrating core CSS fundamentals.</p>
+                     </li>
+                     <li>
+                         <a class="click__open" href="./assignment_6/scissor.html" target="_blank">Assignment 6</a>
+                         <p>"Scissors", a landing page for a URL shortener.</p>
+                     </li>
+                 </ol>
+             </div>
+         </div>
+     </section>
+ </body>
+ 
+ </html>
+ 
